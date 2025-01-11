@@ -5,6 +5,7 @@ Testcase1: 16 port in --> 1 port out 15. output sẽ lấy giá trị din của 
 Testcas2: 16 port in -->16 port out.
 port in 0-->port out 0
 
+
 port in 1-->port out 1
 
 port in 2-->port out 2
