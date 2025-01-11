@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.46016",
+   "Default View_TopLeft":"-301,-346",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_reset_n -pg 1 -lvl 0 -x -60 -y 0 -defaultsOSRD
+preplace port port-id_busy -pg 1 -lvl 3 -x 490 -y 30 -defaultsOSRD
+preplace port port-id_frame_o -pg 1 -lvl 3 -x 490 -y -100 -defaultsOSRD
+preplace port port-id_valid_o -pg 1 -lvl 3 -x 490 -y -70 -defaultsOSRD
+preplace port port-id_dout -pg 1 -lvl 3 -x 490 -y -40 -defaultsOSRD
+preplace portBus frame_n -pg 1 -lvl 0 -x -60 -y -160 -defaultsOSRD
+preplace portBus valid_n -pg 1 -lvl 0 -x -60 -y -90 -defaultsOSRD
+preplace portBus din -pg 1 -lvl 0 -x -60 -y -50 -defaultsOSRD
+preplace portBus request -pg 1 -lvl 0 -x -60 -y 30 -defaultsOSRD
+preplace inst enable_data_0 -pg 1 -lvl 2 -x 340 -y -60 -defaultsOSRD
+preplace inst arbiter_router_0 -pg 1 -lvl 1 -x 80 -y 30 -defaultsOSRD
+preplace netloc arbiter_router_0_busy 1 1 2 NJ 40 470
+preplace netloc arbiter_router_0_grant 1 1 1 210 -30n
+preplace netloc din_1 1 0 2 NJ -50 N
+preplace netloc enable_data_0_dout 1 2 1 N -40
+preplace netloc enable_data_0_frame_o 1 2 1 470 -100n
+preplace netloc enable_data_0_valid_o 1 2 1 470 -70n
+preplace netloc frame_n_1 1 0 2 NJ -160 210
+preplace netloc request_1 1 0 1 -40 30n
+preplace netloc reset_n_1 1 0 1 -40 0n
+preplace netloc valid_n_1 1 0 2 NJ -90 200
+levelinfo -pg 1 -60 80 340 490
+pagesize -pg 1 -db -bbox -sgen -210 -180 590 300
+"
+}
+0
